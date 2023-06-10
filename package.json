@@ -10,7 +10,7 @@
     "start": "npm run build && npm run serve",
     "start:simple": "npm run build:simple && npm run serve",
     "watch": "parcel  index.html",
-    "serve": "serve -s build -l 3000"
+    "serve": "serve -s build -l 80"
   },
   "repository": {
     "type": "git",
