@@ -1,0 +1,31 @@
+{
+  "name": "pej4more",
+  "version": "1.0.0",
+  "description": "# https://silly-sinoussi-0edded.netlify.app/",
+  "scripts": {
+    "clean": "rm -r .parcel-cache",
+    "build": "parcel build index.html",
+    "prebuild:simple": "npm run clean",
+    "build:simple": "npm run build -- --no-scope-hoist",
+    "start": "npm run build && npm run serve",
+    "start:simple": "npm run build:simple && npm run serve",
+    "watch": "parcel  index.html",
+    "serve": "serve -s build -l 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hemakumarm72/blog-landing-page.git"
+  },
+  "author": "Sha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hemakumarm72/blog-landing-page/issues"
+  },
+  "homepage": "https://github.com/hemakumarm72/blog-landing-page#readme",
+  "dependencies": {
+    "serve": "^12.0.0",
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {}
+}
