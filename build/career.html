@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>Career portal</title>
@@ -12,7 +13,9 @@
   <link href="img/pejlogo.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700"
+    rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -45,7 +48,7 @@
     <div class="container clearfix">
       <div class="contact-info float-left">
         <i class="fa fa-envelope-o"></i> <a href="mailto:contact@pej4more.com">contact@pej4more.com</a>
-        <i class="fa fa-phone"></i> (+44) 743-818-7960
+        <i class="fa fa-phone"></i><a href="tel:+234 913 937 0515">(+234) 913 937 0515</a>
       </div>
       <div class="social-links float-right">
         <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
@@ -71,22 +74,22 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="#body">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#services">Services</a></li>
-          
+          <li class="menu-active"><a href="index.html">Home</a></li>
+          <li><a href="index.html">About Us</a></li>
+          <li><a href="index.html">Services</a></li>
+
           <li><a href="team.html">Team</a></li>
           <li class="menu-has-children"><a href="">products</a>
             <ul>
               <li><a href="https://www.namenayou.com" target="_blank">Namenayou classified</a></li>
-               <li><a href="https://nayoutaxi.web.app/" target="_blank">Namenayoutaxi</a></li>
+              <li><a href="https://nayoutaxi.web.app/" target="_blank">Namenayoutaxi</a></li>
               <li><a href="https://www.mysp3.life" target="_blank">Mysp3</a></li>
               <li><a href="https://eshop.namenayou.com/" target="_blank">Namenayoueshop</a></li>
               <li><a href="#">Namenayoupay</a></li>
               <li><a href="#">Namenayouproperties</a></li>
               <li><a href="https://training.namenayoutaxi.com/" target="_blank">Namenayou driving school</a></li>
-              
-             <!--<li><a href="#"></a></li>-->
+
+              <!--<li><a href="#"></a></li>-->
             </ul>
           </li>
           <li><a href="#contact">Contact</a></li>
@@ -118,68 +121,73 @@
       <div class="item" style="background-image: url('img/intro-carousel/5.jpg');"></div>
     </div>
 
-  </section><!-- #intro --> 
+  </section><!-- #intro -->
   <br><br><br><br>
 
   <main id="main">
     <div class="container">
-        <center><h1>Career Portal</h1></center>
-        <div class="form">
-          <!--<div id="sendmessage">Your message has been sent. Thank you! We will respond with a meeting schedule. Keep an eye out on your inbox.</div>-->
-          <div id="errormessage"></div>
-          <form action="/career/employee_reg.php" method="post" enctype="multipart/form-data">
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <input type="text" name="fname" class="form-control" id="name" placeholder="First Name" >
-                <div class="validation"></div>
-              </div>
-              <div class="form-group col-md-6">
-                <input type="text" name="lname" class="form-control" id="name" placeholder="Last Name" >
-                <div class="validation"></div>
-              </div>
-              <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" >
-                <div class="validation"></div>
-              </div>
-              <div class="form-group col-md-6">
-                <input type="text" class="form-control" name="phone" id="phone" placeholder="Your phone number" data-rule="phone" >
-                <!--<div class="validation"></div>-->
-              </div>
-              
-              <div class="form-group col-md-6">
-                <label for="image">Upload Image:</label>
-      <input type="file" class="form-control" name="emp_img">
-              </div>
-              <div class="form-group col-md-6">
-                <select class="form-select" aria-label="Default select example" name="desg">
-  <option selected>Designation</option>
-  <option value="digital_marketer">Marketer</option>
-         <option value="Graphist"> Graphics </option>
-         <option value="Agent"> Agent </option>
-         <option value="backend"> Backend (C#, Networking, Linux power_user, advance python) </option>
-         <option value="Cyber_Security"> Cyber Security</option>
-          <option value="Security"> Security</option>
-         <option value="hardware_eng"> Hardware - engeering(Embeded sytems)</option>
-         <option value="driver"> Driver</option>
-          <option value="internship"> Internship</option>
-          <option value="HR"> HR</option>
-          <option value="Secretary"> secretary</option>
-          <option value="Content_Developer"> Content Developer</option>
-  
-</select>
-                <div class="validation"></div>
-              </div>
+      <center>
+        <h1>Career Portal</h1>
+      </center>
+      <div class="form">
+        <!--<div id="sendmessage">Your message has been sent. Thank you! We will respond with a meeting schedule. Keep an eye out on your inbox.</div>-->
+        <div id="errormessage"></div>
+        <form action="/career/employee_reg.php" method="post" enctype="multipart/form-data">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <input type="text" name="fname" class="form-control" id="name" placeholder="First Name">
+              <div class="validation"></div>
             </div>
-            
-            <!--<div class="form-group">
+            <div class="form-group col-md-6">
+              <input type="text" name="lname" class="form-control" id="name" placeholder="Last Name">
+              <div class="validation"></div>
+            </div>
+            <div class="form-group col-md-6">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                data-rule="email">
+              <div class="validation"></div>
+            </div>
+            <div class="form-group col-md-6">
+              <input type="text" class="form-control" name="phone" id="phone" placeholder="Your phone number"
+                data-rule="phone">
+              <!--<div class="validation"></div>-->
+            </div>
+
+            <div class="form-group col-md-6">
+              <label for="image">Upload Image:</label>
+              <input type="file" class="form-control" name="emp_img">
+            </div>
+            <div class="form-group col-md-6">
+              <select class="form-select" aria-label="Default select example" name="desg">
+                <option selected>Designation</option>
+                <option value="digital_marketer">Marketer</option>
+                <option value="Graphist"> Graphics </option>
+                <option value="Agent"> Agent </option>
+                <option value="backend"> Backend (C#, Networking, Linux power_user, advance python) </option>
+                <option value="Cyber_Security"> Cyber Security</option>
+                <option value="Security"> Security</option>
+                <option value="hardware_eng"> Hardware - engeering(Embeded sytems)</option>
+                <option value="driver"> Driver</option>
+                <option value="internship"> Internship</option>
+                <option value="HR"> HR</option>
+                <option value="Secretary"> secretary</option>
+                <option value="Content_Developer"> Content Developer</option>
+              </select>
+              <div class="validation"></div>
+            </div>
+          </div>
+
+          <!--<div class="form-group">
               <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Can you explain what exactly you want in atleast 8 words." placeholder="Can you explain what exactly you want in atleast 8 words?"></textarea>
               <div class="validation"></div>
             </div>-->
-            <div class="text-center"><button type="submit" name="signuplog">Submit</button></div><br><br>
-          </form>
-        </div>
-
+          <div class="text-center">
+            <button type="button" class="btn btn-outline-success">Submit</button>
+          </div><br><br>
+        </form>
       </div>
+
+    </div>
     </section><!-- #contact -->
 
   </main>
@@ -199,7 +207,7 @@
           Licensing information: https://bootstrapmade.com/license/
           Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Reveal
         -->
-     <a href="https://pej4more.com/">Pej4more</a>
+        <a href="https://pej4more.com/">Pej4more</a>
       </div>
     </div>
   </footer><!-- #footer -->
@@ -225,4 +233,5 @@
   <script src="js/main.js"></script>
 
 </body>
+
 </html>
